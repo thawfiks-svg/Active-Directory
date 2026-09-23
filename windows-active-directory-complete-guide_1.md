@@ -429,8 +429,4 @@ Worth a mention since almost no modern AD deployment is purely on-prem anymore:
 
 **Trust transitivity:** Parent-Child ✅ · Tree-Root ✅ · Shortcut ✅ · Forest ✅ (within scope) · External ❌ · Realm depends on config.
 
----
-
-## Suggested next step
-
-If you want to actually cement this rather than just read it, the highest-leverage move is standing up a small lab: 2–3 VMs, one forest root domain, a child domain or a second site, and walking through Modules 1–7 hands-on before touching the security material in Module 13 — the attack classes make a lot more intuitive sense once you've built the plumbing they're exploiting yourself. Happy to spec out that lab build (VM count, roles, step order) if you want it.
+--
